@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E57B19F2762000E009C06D1 /* PowerLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57B19E2762000E009C06D1 /* PowerLevel.swift */; };
 		0E5F47EC2758B45F0098883D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F47EB2758B45F0098883D /* AppDelegate.swift */; };
 		0E5F47EE2758B45F0098883D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F47ED2758B45F0098883D /* SceneDelegate.swift */; };
 		0E5F47F02758B45F0098883D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F47EF2758B45F0098883D /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E57B19E2762000E009C06D1 /* PowerLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerLevel.swift; sourceTree = "<group>"; };
 		0E5F47E82758B45F0098883D /* GoogleCloudSpeechToText-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoogleCloudSpeechToText-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E5F47EB2758B45F0098883D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E5F47ED2758B45F0098883D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			children = (
 				0E5F48082758C8200098883D /* RequestEntiry.swift */,
 				0E5F481F2759AF340098883D /* ResponseEntity.swift */,
+				0E57B19E2762000E009C06D1 /* PowerLevel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				0E5F48202759AF340098883D /* ResponseEntity.swift in Sources */,
 				0E5F47EC2758B45F0098883D /* AppDelegate.swift in Sources */,
 				0E5F482E2759F4360098883D /* Errors.swift in Sources */,
+				0E57B19F2762000E009C06D1 /* PowerLevel.swift in Sources */,
 				0E5F48022758C0130098883D /* APIConfigure.swift in Sources */,
 				0E5F47EE2758B45F0098883D /* SceneDelegate.swift in Sources */,
 				0E5F48072758C7B60098883D /* APIClient.swift in Sources */,

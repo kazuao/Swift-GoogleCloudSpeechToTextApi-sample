@@ -19,6 +19,7 @@ class ViewController: UIViewController {
 
 
     // MARK: Property
+    private let powerLevel = PowerLevel()
     private let model = Model()
     private var recorder: AVAudioRecorder!
 
@@ -50,6 +51,7 @@ class ViewController: UIViewController {
             print("start")
             statusLabel.text = RecordingStatus.start.rawValue
             recorder.record()
+            powerLevel.start()
         } catch {
             print("Error:", error.localizedDescription)
         }
@@ -59,6 +61,7 @@ class ViewController: UIViewController {
         print("stop")
         statusLabel.text = RecordingStatus.stop.rawValue
         recorder.stop()
+        powerLevel.stop()
     }
 
     @IBAction func tapProcess(_ sender: Any) {
