@@ -16,13 +16,13 @@
 		0E5F47F82758B4630098883D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5F47F62758B4630098883D /* LaunchScreen.storyboard */; };
 		0E5F48002758B5740098883D /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F47FF2758B5740098883D /* Config.swift */; };
 		0E5F48022758C0130098883D /* APIConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F48012758C0130098883D /* APIConfigure.swift */; };
-		0E5F48052758C03E0098883D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0E5F48042758C03E0098883D /* Alamofire */; };
 		0E5F48072758C7B60098883D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F48062758C7B60098883D /* APIClient.swift */; };
 		0E5F48092758C8200098883D /* RequestEntiry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F48082758C8200098883D /* RequestEntiry.swift */; };
 		0E5F48202759AF340098883D /* ResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F481F2759AF340098883D /* ResponseEntity.swift */; };
 		0E5F48272759BAA00098883D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F48262759BAA00098883D /* Model.swift */; };
 		0E5F482B2759BD850098883D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F482A2759BD850098883D /* Settings.swift */; };
 		0E5F482E2759F4360098883D /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F482D2759F4360098883D /* Errors.swift */; };
+		0EB1E2822892775000DCDDB8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0EB1E2812892775000DCDDB8 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E5F48052758C03E0098883D /* Alamofire in Frameworks */,
+				0EB1E2822892775000DCDDB8 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +161,7 @@
 			);
 			name = "GoogleCloudSpeechToText-sample";
 			packageProductDependencies = (
-				0E5F48042758C03E0098883D /* Alamofire */,
+				0EB1E2812892775000DCDDB8 /* Alamofire */,
 			);
 			productName = "GoogleCloudSpeechToText-sample";
 			productReference = 0E5F47E82758B45F0098883D /* GoogleCloudSpeechToText-sample.app */;
@@ -192,7 +192,7 @@
 			);
 			mainGroup = 0E5F47DF2758B45F0098883D;
 			packageReferences = (
-				0E5F48032758C03E0098883D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				0EB1E2802892775000DCDDB8 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 0E5F47E92758B45F0098883D /* Products */;
 			projectDirPath = "";
@@ -454,20 +454,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		0E5F48032758C03E0098883D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		0EB1E2802892775000DCDDB8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0E5F48042758C03E0098883D /* Alamofire */ = {
+		0EB1E2812892775000DCDDB8 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0E5F48032758C03E0098883D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 0EB1E2802892775000DCDDB8 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */

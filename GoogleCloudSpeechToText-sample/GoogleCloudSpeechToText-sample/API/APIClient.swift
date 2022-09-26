@@ -12,6 +12,7 @@ struct APIClient {
     struct ProcessSpeech: APIConfigure {
         typealias ReqEntity = RequestEntity
         typealias ResEntity = ResponseEntity
-        static let path = "https://speech.googleapis.com/v1/speech:recognize?key=\(Config.google_api_key)"
+//        static let path = "https://speech.googleapis.com/v1/speech:recognize?key=\(Config.google_api_key)"
+        static let path = "https://speech.googleapis.com/v1/speech:recognize"
     }
 }

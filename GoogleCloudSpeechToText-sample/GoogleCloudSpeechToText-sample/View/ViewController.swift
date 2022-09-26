@@ -82,7 +82,6 @@ class ViewController: UIViewController {
 //                }
 
                 let res = try await model.request2(soundFilePath: soundFilePath())
-
                 if let transcript = res.alternatives.first?.transcript {
                     self.textView.text += "\n\(transcript)"
                 } else {
@@ -119,7 +118,7 @@ private extension ViewController {
     func soundFilePath() -> URL {
         let documentPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
         let documentDir = documentPath[0]
-        return documentDir.appendingPathComponent("sound.caf")
+        return documentDir.appendingPathComponent("sound.wav")
     }
 }
 

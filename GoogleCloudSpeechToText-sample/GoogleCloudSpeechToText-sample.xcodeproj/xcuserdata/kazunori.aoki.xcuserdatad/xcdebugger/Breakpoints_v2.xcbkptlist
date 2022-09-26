@@ -7,16 +7,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8D802932-7ED1-4272-944A-B908859D0C72"
+            uuid = "C0144894-188C-4DA1-A4BD-2C0628B7A6B1"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "GoogleCloudSpeechToText-sample/API/APIConfigure.swift"
+            filePath = "GoogleCloudSpeechToText-sample/View/Model.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "request(params:headers:completion:)"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "request(soundFilePath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1100ECF5-22CD-4120-ADB0-F945619ACE11"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleCloudSpeechToText-sample/View/Model.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "request2(soundFilePath:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

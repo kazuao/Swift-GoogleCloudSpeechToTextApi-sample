@@ -55,12 +55,17 @@ extension PowerLevel: AVCaptureAudioDataOutputSampleBufferDelegate {
     {
         let audioChannels = connection.audioChannels
 
-        if !audioChannels.isEmpty {
-            let averagePowerLevel = audioChannels.reduce(0.0){ $0 + $1.averagePowerLevel }
-                / Float(audioChannels.count)
-            let peakHoldLevel = audioChannels.reduce(0.0){ $0 + $1.peakHoldLevel }
-                / Float(audioChannels.count)
-            print("\(averagePowerLevel) / \(peakHoldLevel)")
+//        if !audioChannels.isEmpty {
+//            let averagePowerLevel = audioChannels.reduce(0.0){ $0 + $1.averagePowerLevel }
+//                / Float(audioChannels.count)
+//            let peakHoldLevel = audioChannels.reduce(0.0){ $0 + $1.peakHoldLevel }
+//                / Float(audioChannels.count)
+//            print("\(averagePowerLevel) / \(peakHoldLevel)")
+//        }
+
+        audioChannels.forEach {
+//            print("\($0.averagePowerLevel) / \($0.peakHoldLevel)")
+            print("\($0.averagePowerLevel / $0.peakHoldLevel)")
         }
     }
 }

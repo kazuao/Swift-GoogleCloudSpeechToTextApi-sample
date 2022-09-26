@@ -50,6 +50,7 @@ extension APIConfigure {
         var request = URLRequest(url: URL(string: Self.path)!)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.setValue(Config.google_api_key, forHTTPHeaderField: "X-Goog-Api-Key")
 
         request.httpBody = params
 

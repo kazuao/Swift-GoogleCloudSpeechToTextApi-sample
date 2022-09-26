@@ -15,11 +15,12 @@ class Model {
     func request(soundFilePath: URL) async throws -> [Results] {
 
         let headers: HTTPHeaders = [
-            "Content-Type": "application/json",
+            "X-Goog-Api-Key": Config.google_api_key,
+            "Content-Type": "application/json; charset=utf=8",
         ]
 
         let config = RequestConfig(encoding: "LINEAR16",
-                                   samleRateHertz: 16000,
+                                   sampleRateHertz: 16000,
                                    languageCode: "ja-JP",
                                    maxAlternatives: 30)
 

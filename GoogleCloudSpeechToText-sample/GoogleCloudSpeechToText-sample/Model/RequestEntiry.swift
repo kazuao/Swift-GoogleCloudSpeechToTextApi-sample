@@ -14,7 +14,7 @@ struct RequestEntity: Codable {
 
 struct RequestConfig: Codable {
     let encoding: String
-    let samleRateHertz: Int
+    let sampleRateHertz: Int
     let languageCode: String
     let maxAlternatives: Int
 }
